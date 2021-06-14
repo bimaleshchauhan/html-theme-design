@@ -1,0 +1,804 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@700&display=swap');
+body {
+    color: #7e7e7e;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: 'Cabin', sans-serif;
+}
+a{
+    color:  #7e7e7e;
+}
+img{
+    max-width: 100%;
+}
+.color-white{
+   color: #fff;
+}
+.color-black{
+    color: #2d2d2d;
+ }
+ .align-center {
+    text-align: center;
+}
+.upper-case{
+    text-transform: uppercase;
+}
+
+/* ==================================header=========== */
+.top-header {
+    display: flex;
+    padding: 15px 0;
+    text-transform: uppercase;
+}
+.top-header a {
+    text-decoration: none;
+}
+.top-header img {
+    width: 22px;
+    margin: 0 10px;
+}
+.top-header.right {
+    justify-content: flex-end;
+}
+.lang span {
+    padding-left: 20px;
+}
+.lang span:last-child {
+    margin-right: 10px;
+}
+.logo {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+menu li.nav-item {
+    list-style: none;
+}
+
+.inner-header {
+    position: absolute;
+    top: 70px;
+    z-index: 9;
+    width: 100%;
+}
+.menu li.nav-item {
+    list-style: none;
+    padding: 10px;
+}
+.menu li.nav-item a.nav-link {
+    padding: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none;
+}
+li.nav-item.r-border a {
+    border: 1px solid;
+    border-radius: 10px;
+    /* padding: 10px; */
+}
+.dropdown-menu ul li {
+    padding: 10px 13px;
+    border-bottom: 1px solid #e6e4e4;
+}
+.dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+}
+.dropdown-menu ul li:last-child {
+    border: none;
+}
+/* =============================== */
+/* .banner-img {
+    background: url(../img/para-1.jpg);
+    position: sticky;
+} */
+section.banner-sec {
+    position: relative;
+    background: url(../img/para-1.jpg);
+}
+.banner-img:after {
+    background: rgba(0,0,0,.7);
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+.banner-text {
+    text-align: center;
+    padding: 100px;
+    text-transform: uppercase;
+    /* position: absolute; */
+    /* top: 50%; */
+    /* transform: translateY(-50%); */
+    text-align: center;
+    margin: auto;
+    left: 0;
+    right: 0;
+    color: #fff;
+    background: rgba(0,0,0,.5);
+}
+.logo img {
+    width: 160px;
+    border-radius: 10px;
+}
+.s-text {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.l-text {
+    font-size: 50px;
+    padding: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.s-1-txt {
+    font-size: 16px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+/* ==================================== */
+.cust-btn input[type="button"] {
+    background: #c29c78;
+    border: none;
+    color: #fff;
+    border-radius: 7px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+section.our-shop {
+    padding: 50px 0;
+    position: relative;
+}
+.our-shop {
+    color: #000;
+}
+.title-1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.title-2{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+.cust-btn {
+    margin-top: 25px;
+}
+.our-shop p {
+    padding: 20px 0;
+}
+.boxlist .img {
+    position: relative;
+}
+.boxlist .cust-btn {
+    position: absolute;
+    top: 0;
+    right: 23px;
+    font-weight: 600;
+}
+.txt {
+    position: absolute;
+    bottom: 10px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+}
+.boxlist {
+    position: absolute;
+    bottom: 20px;
+}
+.icon-bar {
+   
+    background: #fff;
+}
+section.fresh-product {
+    background: url(http://www.nicdarkthemes.com/themes/bakery/wp/demo/bakery/wp-content/uploads/sites/2/2019/12/para-6.jpg);
+    padding: 20px;
+}
+/* ======== */
+.box-border {
+    border-bottom: 1px solid #f1f1f1;
+}
+.inner-border {
+    border: 7px solid #c19b77;
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    margin-top: -15px;
+    background-color: #fff;
+}
+/* =============our shop===================== */
+.dt-1 {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    color: #fff;
+}
+.dt-2 span {
+    background: #c19b77;
+    padding: 0px 6px;
+    font-size: 25px;
+    line-height: 4px;
+    color: #fff;
+}
+.dt-1 a {
+    color: #fff;
+}
+.dt-2 {
+    position: absolute;
+    width: 88%;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.dt-2 a {
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.title {
+    padding: 35px 0;
+}
+ul.inner-tabs {
+    padding: 0;
+    margin: 40px 0 0 0;
+    list-style: none;
+}
+ul.inner-tabs li {
+    display: inline-block;
+}
+ul.inner-tabs a {
+    color: #fff;
+    padding: 17px;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/* ****************************************************** */
+/* ======================customizatipon==================== */
+section.customization {
+    padding: 40px 0 60px;
+}
+.box-text {
+    font-size: 70px;
+    padding: 30px;
+    font-family: 'Bodoni Moda', serif;
+}
+.download-course {
+    position: relative;
+    margin-top: 40px;
+}
+.cust-btn.down-btn img {
+    margin-right: 15px;
+}
+.cust-btn.down-btn button {
+    background: #c19b77;
+    width: 100%;
+    border: none;
+    color: #fff;
+    padding: 15px;
+    font-size: 17px;
+}
+.cust-btn.down-btn {
+    position: relative;
+    margin: 0;
+}
+.text-dt {
+    position: absolute;
+    top: 0;
+    padding: 20px;
+    color: #fff;
+    background: rgba(0,0,0,.5);
+    height: 100%;
+    width: 100%;
+    /* bottom: 0; */
+}
+.box-s {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+.box-s img {
+    width: 74px;
+    padding: 10px 15px 10px 0;
+}
+/* ************************************* */
+/* ================estimate price ==========================*/
+section.estimate-price {
+    background: url(http://www.nicdarkthemes.com/themes/bakery/wp/demo/bakery/wp-content/uploads/sites/2/2019/12/para-8.jpg);
+    padding: 50px;
+    position: relative;
+    /* z-index: 5; */
+}
+section.estimate-price:after {
+    background: rgba(0,0,0,.5);
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.estimate-price .title {
+    position: relative;
+    z-index: 999;
+    color: #fff;
+}
+.eatmt-dtl {
+    background: #fff;
+    position: relative;
+    z-index: 9;
+    padding: 50px;
+}
+.toggle-para a {
+    font-size: 18px;
+    padding: 14px 0;
+    display: inline-block;
+    text-decoration: none;
+}
+.toggle-para {
+    border-bottom: 1px solid #e6e6e6;
+}
+.toggle-para .collapse {
+    margin-bottom: 15px;
+    line-height: 26px;
+}
+.toggle-para a::before{
+    content: "-";
+    background: #c19b77;
+    color: #fff;
+    padding: 2px 6px;
+    margin-right: 10px;
+}
+
+.toggle-para a.collapsed:before{
+    content: "+";
+}
+.toggle-para:last-child {
+    border: none;
+}
+/* ********************************************* */
+/* =======================specialites===================== */
+.s-list-img {
+    /* width: 80px; */
+    margin-right: 20px;
+}
+.s-list-img img {
+    width: 50px;
+}
+.speciality-list {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.s-list-title {
+    font-size: 18px;
+}
+.s-list-subtitle {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.s-list-subtitle span{
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 4px 10px;
+}
+.s-list-subtitle .bg-color span{
+    background: #c19b77;
+    color: #fff;
+    border: none;
+}
+.s-lst img {
+    width: 55px;
+    margin: 24px;
+}
+.s-lst {
+    text-align: center;
+    padding: 20px 0;
+}
+/* *************************************************** */
+/* ======================promotion=================== */
+.promotion-1 p {
+    line-height: 26px;
+    letter-spacing: 1px;
+    padding: 20px 0;
+}
+section.promotion {
+    background: url(http://www.nicdarkthemes.com/themes/bakery/wp/demo/bakery/wp-content/uploads/sites/2/2019/12/para-10.jpg);
+    padding: 70px;
+    color: #fff;
+}
+.border-corn input[type="button"] {
+    border-radius: 0;
+}
+section.contact-us {
+    background: #2d2d2d !important;
+    padding: 30px;
+    color: #fff;
+}
+.contact-us .cust-btn.border-corn {
+    margin-top: 10px;
+}
+/* **************************************************** */
+/* ============================footer================================== */
+section.footer {
+    background: url(http://www.nicdarkthemes.com/themes/bakery/wp/demo/bakery/wp-content/uploads/sites/2/2019/12/para-5.jpg?id=1829);
+    padding: 60px;
+}
+section.footer .logo-1 img {
+    width: 160px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.social-icon ul {
+    padding: 0;
+    margin-top: 25px;
+}
+.social-icon li {
+    list-style: none;
+    display: inline-block;
+    padding: 6px;
+}
+.social-icon img {
+    width: 25px;
+}
+p.f-para {
+    line-height: 30px;
+    padding-right: 20px;
+    color: #fff;
+}
+section.footer h4 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+section.footer p {
+    color: #fff;
+}
+.flink p:before {
+    content: "\203A";
+    margin-right: 6px;
+    font-size: 24px;
+    line-height: 18px;
+    
+}
+.p-list .boxlist {
+    position: relative;
+}
+.boxlist .cust-btn input[type="button"] {
+    padding: 4px 15px;
+    border-radius: 4px;
+}
+.p-list {
+    margin-bottom: 30px;
+}
+section.cust-speciality {
+    padding: 40px;
+}
+/* ************************************************************ */
+
+/*======================== slider css=================  */
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+  }
+  
+  /* The slider itself */
+  .slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 5px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+  }
+  
+  /* Mouse-over effects */
+  .slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+  }
+  
+  /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+  /* .slider::-webkit-slider-thumb { */
+    /* -webkit-appearance: none; Override default look */
+    /* appearance: none; */
+    /* width: 50px; Set a specific slider handle width */
+    /* height: 25px; Slider handle height */
+    /* background: #04AA6D; Green background */
+    /* cursor: pointer; Cursor on hover */
+  /* } */
+  
+  /* .slider::-moz-range-thumb { */
+    /* width: 25px; Set a specific slider handle width */
+    /* height: 25px; Slider handle height */
+    /* background: #04AA6D; Green background */
+    /* cursor: pointer; Cursor on hover */
+  /* } */
+  .range-wrap {
+    position: relative;
+    margin: 0 auto 3rem;
+  }
+  .bubble {
+    background: #c29c78;
+    color: white;
+    padding: 4px 12px;
+    position: absolute;
+    border-radius: 4px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: -15px;
+  }
+  /* .bubble::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: #04AA6D;
+    top: -1px;
+    left: 50%;
+  }   */
+/* ************************************** */
+
+/* ==============toggle button css============= */
+.toggle-button-cover
+{
+    display: table-cell;
+    position: relative;
+    /* width: 200px;
+    height: 140px; */
+    box-sizing: border-box;
+    top: 22px;
+}
+
+
+.button-cover, .knobs, .layer
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.button
+{
+    position: relative;
+    top: 50%;
+    width: 154px;
+    height: 36px;
+    margin: -20px auto 0 auto;
+    overflow: hidden;
+}
+
+.button.r, .button.r .layer
+{
+    border-radius: 100px;
+}
+
+.button.b2
+{
+    border-radius: 2px;
+}
+
+.checkbox
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.knobs
+{
+    z-index: 2;
+}
+
+.layer
+{
+    width: 100%;
+    background-color: #ccc;
+    transition: 0.3s ease all;
+    z-index: 1;
+}
+
+#button-10 .knobs:before, #button-10 .knobs:after, #button-10 .knobs span
+{
+    position: absolute;
+    top: 6px;
+    width: 20px;
+    height: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 0;
+    padding: 12px 34px;
+    border-radius: 2px;
+    transition: 0.3s ease all;
+}
+
+#button-10 .knobs:before
+{
+    content: '';
+    left: 4px;
+    background-color: #fff;
+}
+
+#button-10 .knobs:after
+{
+    content: 'Yes';
+    right: 10px;
+    color: #000;
+}
+
+#button-10 .knobs span
+{
+    display: inline-block;
+    left: 0px;
+    color: #000;
+    z-index: 1;
+}
+
+#button-10 .checkbox:checked + .knobs span
+{
+    color: #4e4e4e;
+}
+
+#button-10 .checkbox:checked + .knobs:before
+{
+    left: 80px;
+    background-color: #fff;
+}
+
+#button-10 .checkbox:checked + .knobs:after
+{
+    color: #000;
+}
+
+#button-10 .checkbox:checked ~ .layer
+{
+    background-color: #ccc;
+}
+.select-btn {
+    margin-top: 50px;
+}
+select {
+    padding: 8px;
+    width: 100%;
+}
+.slidecontainer label {
+    padding: 25px 0px 30px;
+}
+
+/* +++++++++++++++++++++++++++++++ */
+
+@media (min-width: 768px){
+.row.listbx .col-sm-2 {
+    width: 20%;
+}
+.list-box .col-sm-2 {
+    width: 20%;
+}
+}
+@media (max-width: 991px){
+.inner-header {
+    position: static; 
+    top: 60px;
+    z-index: 0;
+     width: 100%;
+    background: #2d2d2d !important;
+    padding-bottom: 25px;
+}
+.navbar-toggle{
+    top: 14px;
+}
+.navbar-collapse{
+    margin-top: 90px;
+}
+.logo {
+    padding: 20px;
+    position: absolute;
+}
+.logo img {
+    width: 190px;
+}
+.upper-header {
+    display: none;
+}
+}
+@media (max-width: 767px){
+.boxlist {
+    position: static;
+    /* bottom: 0; */
+    margin-top: 16px;
+}
+.l-text {
+    font-size: 25px;
+    padding: 10px;
+}
+.s-text {
+    font-size: 18px;
+}
+.s-1-txt {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.our-shop {
+    color: #000;
+    margin-bottom: 30px;
+}
+ul.inner-tabs a {
+    padding: 13px;
+    font-size: 14px;
+    display: inline-block;
+}
+section.fresh-product {
+    padding: 0;
+}
+ul.inner-tabs {
+    margin: 10px 0 20px 0;
+}
+.list-box .box-1 {
+    margin-bottom: 20px;
+}
+.box-content.align-center {
+    margin-bottom: 60px;
+}
+section.estimate-price{
+    padding: 15px;
+}
+.eatmt-dtl{
+    padding: 30px;
+}
+.select-btn {
+    margin-top: 20px;
+}
+.term-condition {
+    margin-top: 70px;
+}
+
+.s-list-title {
+    font-size: 14px;
+}
+section.cust-speciality {
+    padding: 0;
+}
+section.promotion {
+   padding: 50px 20px;
+}
+.pro-list {
+    margin-top: 40px;
+}
+section.footer {
+  padding: 60px 20px;
+}
+.flink {
+    margin-top: 35px;
+}
+section.contact-us {
+    text-align: center;
+}
+}
+@media (min-width: 768px) and (max-width: 1000px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-toggle {
+        display:block;
+    }
+ }
